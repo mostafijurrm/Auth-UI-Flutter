@@ -9,8 +9,8 @@ class CustomStyle {
   );
 
   static var hintTextStyle = TextStyle(
-      color: Colors.grey,
-      fontSize: Dimensions.defaultTextSize
+      fontSize: Dimensions.defaultTextSize,
+      fontWeight: FontWeight.w400
   );
 
   static var listStyle = TextStyle(
@@ -22,15 +22,4 @@ class CustomStyle {
       color: Colors.white,
       fontSize: Dimensions.largeTextSize
   );
-
-  static var focusBorder = OutlineInputBorder(
-    borderRadius: BorderRadius.circular(Dimensions.radius * 0.5),
-    borderSide: BorderSide(color: CustomColor.primaryColor.withOpacity(0.6)),
-  );
-
-  static var focusErrorBorder = OutlineInputBorder(
-    borderRadius: BorderRadius.circular(Dimensions.radius * 0.5),
-    borderSide: BorderSide(color: CustomColor.accentColor.withOpacity(0.6)),
-  );
-
 }
