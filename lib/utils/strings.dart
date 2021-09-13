@@ -1,5 +1,5 @@
 class Strings {
-  static const String appName = 'PortLab';
+  static const String appName = 'Auth UI';
 
   //onBoard screen
   static const String title1 = 'Career Concept';
@@ -14,11 +14,40 @@ class Strings {
   static String getStarted = 'Get Started';
 
   //login screen
+  static String dontHaveAnAccount = "Don't have an account? ";
   static String pleaseFillOutTheField = 'Please Fill Out The Field';
+  static String register = 'Register';
   static String email = 'E-mail';
   static String enterEmail = 'Enter E-mail';
   static String password = 'Password';
   static String enterPassword = 'Enter Password';
   static String login = 'Login';
+  static String loginNow = 'Login Now';
+  static String orSignInVia = 'or sign in via';
+  static String google = 'Google';
+
+  //register screen
+  static String alreadyHaveAnAccount = 'Already have an account? ';
+  static String firstName = 'First Name';
+  static String lastName = 'Last Name';
+  static String country = 'Country';
+  static String phone = 'Phone';
+  static String username = 'Username';
+  static String dateOfBirth = 'Date of Birth';
+  static String occupation = 'Occupation';
+  static String uploadYourIdentityCard = 'Upload Your Identity Card';
+  static String uploadIDCard = 'Upload ID Card';
+  static String reUpload = 'Re - Upload';
+  static String address = 'Address';
+  static String city = 'City';
+  static String zipCode = 'Post / Zip Code';
+  static String confirmPassword = 'Confirm Password';
+
+  //email verification screen
+  static String verify = 'Verify';
+  static String emailVerification = 'E-mail Verification';
+  static String enterOTPSentTo = 'Enter OTP Sent To: ';
+  static String didntGetOtpCode = "Didn't Get OTP Code";
+  static String resend = "Resend";
 
 }

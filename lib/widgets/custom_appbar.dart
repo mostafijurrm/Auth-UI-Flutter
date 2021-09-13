@@ -1,4 +1,6 @@
+import 'package:auth_ui/utils/dimensions.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class CustomAppbar extends StatelessWidget implements PreferredSizeWidget {
   final String? title;
@@ -12,11 +14,11 @@ class CustomAppbar extends StatelessWidget implements PreferredSizeWidget {
         title: Text(
           title!,
           style: TextStyle(
-              fontWeight: FontWeight.bold,
-              color: Colors.white
+              fontWeight: FontWeight.w400,
+              color: Colors.white,
+            fontSize: Dimensions.largeTextSize
           ),
         ),
-        centerTitle: true,
         iconTheme: IconThemeData(
           color: Colors.white
         ),
@@ -26,5 +28,5 @@ class CustomAppbar extends StatelessWidget implements PreferredSizeWidget {
 
   @override
   // TODO: implement preferredSize
-  Size get preferredSize => Size.fromHeight(100);
+  Size get preferredSize => Size.fromHeight(90.h);
 }

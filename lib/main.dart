@@ -1,5 +1,6 @@
-import 'package:auth_ui/routs/routes.dart';
+import 'package:auth_ui/routes/routes.dart';
 import 'package:auth_ui/utils/custom_color.dart';
+import 'package:auth_ui/utils/strings.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
     ));
     return ScreenUtilInit(
       builder: () => MaterialApp(
-        title: 'Flutter Demo',
+        title: Strings.appName,
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primaryColor: CustomColor.primaryColor,

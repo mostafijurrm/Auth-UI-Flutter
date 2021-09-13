@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:auth_ui/routs/routes.dart';
+import 'package:auth_ui/routes/routes.dart';
 import 'package:auth_ui/utils/custom_color.dart';
 import 'package:auth_ui/widgets/custom_loading.dart';
 
